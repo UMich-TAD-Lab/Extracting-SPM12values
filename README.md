@@ -51,7 +51,9 @@
 1. When you select this file, it will ask to import the file into MATLAB. When the "Import Wizard" window pops up in MATLAB, just press "Finish". This will create a variable called "SPM" in the Workspace on the right hand side of the MATLAB window
 1. Double-click on the SPM variable. This will open the Variable in the Variables portion of the MATLAB window
 1. Double-click on the "marsy" subvariable
-(insert picture)
+
+![Image](marsbar3.png)
+
 1. Double-click on the Y variable. This will open a spreadsheet in MATLAB with the extracted values data in it. They won't have any column headers, but will appear in the order which you selected the ROIs. If you need a reminder of the order, you can double click on "Regions" once you are inside the marsY variable. That will open up a spreadsheet that looks like the one below (with as many cels filled in as regions that you selected). Double click on each of the cells for the name of the ROI file that each column represents
 (Insert picture)
 1. Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values". Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
