@@ -12,7 +12,8 @@
 
 ## Step 2: Open MarsBaR
 1. Click on Toolbox menu and select marsbar
-![Imaage](marsbar1.png)
+
+![Image](marsbar1.png)
 
 ## Step 3: Define the Design to Extract Data From
 1. Click on "Design" from the MarsBaR menu
