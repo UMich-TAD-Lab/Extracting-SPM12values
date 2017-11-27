@@ -58,7 +58,7 @@
 
 ![Image](marsbar2.png)
 
-6. Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values". Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
+6. Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values". (INSERT SPREADSHEET) Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
 7. Also double check that the number of subjects matches up. They should, but if they do not, you can select the "info" filed in the marsY variable field
 
 ![Image](marsbar4.png)
