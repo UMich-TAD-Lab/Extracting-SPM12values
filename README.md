@@ -50,7 +50,7 @@
 1. Outside of MATLAB, go to the Extracted_Data folder in the Level 2 Analyses folder that you saved the data to (e.g. …/Level_2_Analyses/ART_102417/Extracted_Data) and select the .mat file that you extracted data from
 2. When you select this file, it will ask to import the file into MATLAB. When the "Import Wizard" window pops up in MATLAB, just press "Finish". This will create a variable called "SPM" in the Workspace on the right hand side of the MATLAB window
 3. Double-click on the SPM variable. This will open the Variable in the Variables portion of the MATLAB window
-4. Double-click on the "marsy" subvariable
+4. Double-click on the "marsY" subvariable
 
 ![Image](marsbar3.png)
 
