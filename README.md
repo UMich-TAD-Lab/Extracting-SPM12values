@@ -9,3 +9,20 @@
 - $ cd /PATH FOR NO SCALP IMAGING DATA DIRECTORY
 - $ spm fmri
 - NOTE: chane the file paths based on what version of SPM you are using and where you are getting the Level 2
+
+## Step 2: Open MarsBaR
+1. Click on Toolox menu and select marsbar
+(insert image)
+
+## Step 3: Define the Design to Extract Data From
+1. Click on "Design" from the MarsBaR menu
+1. Select "Set design from file"
+1. Go to Level_2_Analyses Folder
+1. Click on the analysis folder that you want to extract the data from (e.g. ART_102417)
+1. Click on the con_XXXX folder that you want to extract data from
+1. Select the SPM.mat file
+
+## Step 4: Define the Parameter to Extract the Data
+1. Click on the "Data" from the MarsBaR menu
+1. Select "Extract ROI Data" (full options)
+1. Define the ROI(s) that you are going to extract from
