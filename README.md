@@ -24,7 +24,7 @@
 
 ## Step 4: Define the Parameter to Extract the Data
 1. Click on the "Data" from the MarsBaR menu
-2. Select "Extract ROI Data" (full options)
+2. Select "Extract ROI Data" (full options):
 3. Define the ROI(s) that you are going to extract from
 - Scroll to the template folder
 - Select the ROIs that you want to use: in this example, LAmy_aal_roi.mat, RAmy_aal_roi.mat, and BiAmy_AAL_roi.mat
@@ -33,5 +33,23 @@
 6. Scaling from: "raw data"
 7. Scale grand mean to (0=raw), change the value from 50 to 0 and press "Enter"
 
-##Step 5: Estimate the Results
-1.
+## Step 5: Estimate the Results
+1. Click on "Results" from the MarsBaR menu
+1. Select "Estimate results"
+
+## Step 6: Save the Extracted Values to a .mat File
+1. Click on "Results" from the MarsBaR menu
+1. Select "Save results to file"
+1. Go to the Level_2_Analyses folder that you are extracting data from (e.g. ART_102417)
+1. Select the “Extracted_Data” folder
+1. Name the file with the con number, ROIs you extracted from, and the date (e.g. con_0001_LAmy_RAmy_BiLat_102717)
+1. Press "Save"
+
+## Step 7: Add the Values to the Extracted Value Spreadsheet
+1. Outside of MATLAB, go to the Extracted_Data folder in the Level 2 Analyses folder that you saved the data to (e.g. …/Level_2_Analyses/ART_102417/Extracted_Data) and select the .mat file that you extracted data from
+1. When you select this file, it will ask to import the file into MATLAB. When the "Import Wizard" window pops up in MATLAB, just press "Finish." This will create a variable called "SPM" in the Workspace on the right hand side of the MATLAB window
+1. Double-click on the SPM variable. This will open the Variable in the Variables portion of the MATLAB window
+1. Double-click on the "marsy" subvariable
+(insert picture)
+1. Double-click on the Y variable. This will open a spreadsheet in MATLAB with the extracted values data in it. They won't have any column headesr, but will appear in the order which you selected the ROIs. If you need a reminder of the order, you can double click on "Regions" once you are inside the marsY variable. That will open up a spreadsheet that looks like the one below (with as many cels filled in as regions that you selected). Double click on each of the cells for the name of the ROI file that each column represents
+(Insert picture)
