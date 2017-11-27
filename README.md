@@ -26,3 +26,7 @@
 1. Click on the "Data" from the MarsBaR menu
 1. Select "Extract ROI Data" (full options)
 1. Define the ROI(s) that you are going to extract from
+- Scroll to the template folder
+- Select the ROIs that you want to use: in this example, LAmy_aal_roi.mat, RAmy_aal_roi.mat, and BiAmy_AAL_roi.mat
+1. When it asks "Use SPM design?" select "Yes"
+1. When it asks "Images from:" select "SPM design"
