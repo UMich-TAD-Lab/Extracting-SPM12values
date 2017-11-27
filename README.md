@@ -24,9 +24,14 @@
 
 ## Step 4: Define the Parameter to Extract the Data
 1. Click on the "Data" from the MarsBaR menu
-1. Select "Extract ROI Data" (full options)
-1. Define the ROI(s) that you are going to extract from
+2. Select "Extract ROI Data" (full options)
+3. Define the ROI(s) that you are going to extract from
 - Scroll to the template folder
 - Select the ROIs that you want to use: in this example, LAmy_aal_roi.mat, RAmy_aal_roi.mat, and BiAmy_AAL_roi.mat
-1. When it asks "Use SPM design?" select "Yes"
-1. When it asks "Images from:" select "SPM design"
+4. When it asks "Use SPM design?" select "Yes"
+5. When it asks "Images from:" select "SPM design"
+6. Scaling from: "raw data"
+7. Scale grand mean to (0=raw), change the value from 50 to 0 and press "Enter"
+
+##Step 5: Estimate the Results
+1.
