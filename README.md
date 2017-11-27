@@ -1,5 +1,5 @@
 # How to Extract Data from the Amygdala Using MarsBaR
-- Protocol Developed by Kristen Stauffer
+- Protocol Developed by Leigh Gayle Goetschius
 - Webpage Developed by Andie Bulbin
 
 ## Step 1: Open and Set Up MATLAB
