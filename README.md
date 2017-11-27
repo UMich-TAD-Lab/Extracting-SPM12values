@@ -48,17 +48,21 @@
 
 ## Step 7: Add the Values to the Extracted Value Spreadsheet
 1. Outside of MATLAB, go to the Extracted_Data folder in the Level 2 Analyses folder that you saved the data to (e.g. …/Level_2_Analyses/ART_102417/Extracted_Data) and select the .mat file that you extracted data from
-1. When you select this file, it will ask to import the file into MATLAB. When the "Import Wizard" window pops up in MATLAB, just press "Finish". This will create a variable called "SPM" in the Workspace on the right hand side of the MATLAB window
-1. Double-click on the SPM variable. This will open the Variable in the Variables portion of the MATLAB window
-1. Double-click on the "marsy" subvariable
+2. When you select this file, it will ask to import the file into MATLAB. When the "Import Wizard" window pops up in MATLAB, just press "Finish". This will create a variable called "SPM" in the Workspace on the right hand side of the MATLAB window
+3. Double-click on the SPM variable. This will open the Variable in the Variables portion of the MATLAB window
+4. Double-click on the "marsy" subvariable
 
 ![Image](marsbar3.png)
 
-1. Double-click on the Y variable. This will open a spreadsheet in MATLAB with the extracted values data in it. They won't have any column headers, but will appear in the order which you selected the ROIs. If you need a reminder of the order, you can double click on "Regions" once you are inside the marsY variable. That will open up a spreadsheet that looks like the one below (with as many cels filled in as regions that you selected). Double click on each of the cells for the name of the ROI file that each column represents
-(Insert picture)
-1. Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values". Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
-1. Also double check that the number of subjects matches up. They should, but if they do not, you can select the "info" filed in the marsY variable field
-(insert picture)
-1. Double-click on the VY field.
-1. In the spreadsheet that this opens up, look at the fname column for the filepaths for all of the images included in the Level 2 analysis
-1. You can then compare the values inthe fname column with the ID column in the Excel document
+5. Double-click on the Y variable. This will open a spreadsheet in MATLAB with the extracted values data in it. They won't have any column headers, but will appear in the order which you selected the ROIs. If you need a reminder of the order, you can double click on "Regions" once you are inside the marsY variable. That will open up a spreadsheet that looks like the one below (with as many cels filled in as regions that you selected). Double click on each of the cells for the name of the ROI file that each column represents
+
+![Image](marsbar2.png)
+
+6. Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values". Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
+7. Also double check that the number of subjects matches up. They should, but if they do not, you can select the "info" filed in the marsY variable field
+
+![Image](marsbar4.png)
+
+8. Double-click on the VY field.
+9. In the spreadsheet that this opens up, look at the fname column for the filepaths for all of the images included in the Level 2 analysis
+10. You can then compare the values inthe fname column with the ID column in the Excel document
