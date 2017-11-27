@@ -11,8 +11,8 @@
 - NOTE: chane the file paths based on what version of SPM you are using and where you are getting the Level 2
 
 ## Step 2: Open MarsBaR
-1. Click on Toolox menu and select marsbar
-(insert image)
+1. Click on Toolbox menu and select marsbar
+![Imaage](marsbar1.png)
 
 ## Step 3: Define the Design to Extract Data From
 1. Click on "Design" from the MarsBaR menu
