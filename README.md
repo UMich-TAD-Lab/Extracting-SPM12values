@@ -62,6 +62,7 @@
 7. Also double check that the number of subjects matches up. They should, but if they do not, you can select the "info" filed in the marsY variable field
 
 ![Image](marsbar4.png)
+
 8. Double-click on the VY field
 9. In the spreadsheet that this opens up, look at the fname column for the filepaths for all of the images included in the Level 2 analysis
 10. You can then compare the values inthe fname column with the ID column in the Excel document
