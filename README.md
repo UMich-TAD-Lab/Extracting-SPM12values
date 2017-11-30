@@ -8,7 +8,7 @@
 - $ addpath(genpath(‘PATH TO SPM12’))
 - $ cd /PATH FOR NO SCALP IMAGING DATA DIRECTORY
 - $ spm fmri
-- NOTE: chane the file paths based on what version of SPM you are using and where you are getting the Level 2
+- NOTE: change the file paths based on what version of SPM you are using and where you are getting the Level 2
 
 ## Step 2: Open MarsBaR
 1. Click on Toolbox menu and select marsbar
@@ -54,15 +54,14 @@
 
 ![Image](marsbar3.png)
 
-5. Double-click on the Y variable. This will open a spreadsheet in MATLAB with the extracted values data in it. They won't have any column headers, but will appear in the order which you selected the ROIs. If you need a reminder of the order, you can double click on "Regions" once you are inside the marsY variable. That will open up a spreadsheet that looks like the one below (with as many cels filled in as regions that you selected). Double click on each of the cells for the name of the ROI file that each column represents
+- Double-click on the Y variable. This will open a spreadsheet in MATLAB with the extracted values data in it. They won't have any column headers, but will appear in the order which you selected the ROIs. If you need a reminder of the order, you can double click on "Regions" once you are inside the marsY variable. That will open up a spreadsheet that looks like the one below (with as many cels filled in as regions that you selected). Double click on each of the cells for the name of the ROI file that each column represents
 
 ![Image](marsbar2.png)
 
-6. Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values" ([Example Log](https://docs.google.com/spreadsheets/d/e/2PACX-1vRA9yuRPAL_dFdvfzlB2qSmiEwGlU9C5gWWyvnYlQJYRfCq3A-ttfE2RLh9k3Mkgzm-m5No7Ni-ywK_/pub?output=xlsx)) Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
-7. Also double check that the number of subjects matches up. They should, but if they do not, you can select the "info" filed in the marsY variable field
+- Copy and paste the values from the spreadsheet into the Excel document called "Faces_Amygdala_Extracted_Values" ([Example Log](https://docs.google.com/spreadsheets/d/e/2PACX-1vRA9yuRPAL_dFdvfzlB2qSmiEwGlU9C5gWWyvnYlQJYRfCq3A-ttfE2RLh9k3Mkgzm-m5No7Ni-ywK_/pub?output=xlsx)) Make sure you are pasting the values into the correct con columns and double check, actually triple check, that the ROIs match up. Make sure you are in the correct page in the Excel doc.
+- Also double check that the number of subjects matches up. They should, but if they do not, you can select the "info" filed in the marsY variable field
 
 ![Image](marsbar4.png)
-
-8. Double-click on the VY field.
-9. In the spreadsheet that this opens up, look at the fname column for the filepaths for all of the images included in the Level 2 analysis
-1. You can then compare the values inthe fname column with the ID column in the Excel document
+- Double-click on the VY field.
+- In the spreadsheet that this opens up, look at the fname column for the filepaths for all of the images included in the Level 2 analysis
+- You can then compare the values inthe fname column with the ID column in the Excel document
